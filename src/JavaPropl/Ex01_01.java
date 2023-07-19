@@ -5,9 +5,7 @@ import java.util.Arrays;
 public class Ex01_01 {
 
     public static void main(String[] args) {
-        int cnt = (int)(Math.random()*8999)+1000;
-
-        cnt = 1000;
+        int cnt = (int)(Math.random()*9000)+1000;
 
         System.out.println(cnt);
 
