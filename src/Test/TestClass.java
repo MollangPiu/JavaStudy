@@ -17,7 +17,7 @@ public class TestClass implements TestInter{
     public String test() {
         dkdkdk();
         new InnerClass();
-        return "test";
+        return "test1";
     }
 
     void dkdkdk() {
