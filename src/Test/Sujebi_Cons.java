@@ -15,6 +15,9 @@ class ConsB extends ConsA{
      * 단, 생성자를 커스텀을 할 경우에는 default로 만들어진 생성자는 자동으로 사라진다.
      * 오버로딩 된 생성자 또한 포함된다.
      */
+    ConsB() {
+
+    }
     ConsB(int cnt) {
         super();
     }
