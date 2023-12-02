@@ -14,9 +14,8 @@ public class DataType {
 
 
         System.out.println("==============================");
+
         //byte, short, int, Long
-
-
         byte by = 120;
         short sh = 32700;
         int in = 2147483647;
@@ -30,6 +29,9 @@ public class DataType {
 
 
         System.out.println("==========================");
+        int num = 9156;
+        int score = 50;
+        int password = 1234;
         System.out.println(in*160);
         System.out.println(in*-1*150);
 
