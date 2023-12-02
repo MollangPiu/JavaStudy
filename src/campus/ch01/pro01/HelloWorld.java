@@ -6,5 +6,7 @@ public class HelloWorld {
 
 
         System.out.println("Hellow Wolrd");
+        System.out.println("안녕하세요.");
+        System.out.println("Java의 시작을 환영합니다.");
     }
 }
