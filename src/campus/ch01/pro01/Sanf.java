@@ -8,11 +8,8 @@ public class Sanf {
 
         Scanner sc = new Scanner(System.in);
 
-        int num = sc.nextInt();
-        System.out.println("num: "+num);
-
-
-        String str02 = sc.nextLine();
-        System.out.println(str02);
+        System.out.println("문자를 입력해주세요.");
+        String str = sc.nextLine();
+        System.out.println("str: "+str);
     }
 }
