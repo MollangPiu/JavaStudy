@@ -1,6 +1,6 @@
 package campus.ch01.pro01;
 
-public class Helloorld {
+public class HelloWorld {
 
     public static void main(String[] args) {
 
