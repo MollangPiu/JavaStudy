@@ -1,6 +1,6 @@
 package campus.ch01.pro02;
 
-public class DataType {
+class DataType {
 
     public static void main(String[] args) {
         System.out.println("Hello World");
