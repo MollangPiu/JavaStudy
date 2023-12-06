@@ -28,17 +28,21 @@ public class ReferenceName {
         String str2 = "JAVA공부";
         System.out.println(str1+str2);
 
+        System.out.println(3+4+7);
+        System.out.println("3"+4+7);
+        System.out.println(3+4+"7");
         System.out.println("===========================");
 
         //강제 형변환
         double doScore = 95.8;
         int inScore = 80;
 
-        System.out.println((int)doScore);
-        System.out.println((double)inScore);
+        System.out.println("int: "+(int)doScore);
+        System.out.println("double: "+(double)inScore);
 
-        System.out.println("두 개의 합은 "+(int)(doScore+inScore));
-        System.out.println("두 개의 합은 "+doScore+inScore);
+        System.out.println("원래 결과: "+doScore+inScore);
+        System.out.println("int: "+(int)(doScore+inScore));
+        System.out.println("double: "+doScore+inScore);
 
         System.out.println("===========================");
         //함수를 사용한 형변환
@@ -49,6 +53,12 @@ public class ReferenceName {
         System.out.println(testNum+strNum);
         System.out.println(Integer.valueOf(strNum)+testNum);
         System.out.println(Integer.parseInt(strNum)+testNum);
+
+        String string = String.valueOf(testNum);      //정수 => 문자
+        int intNum = Integer.parseInt(strNum);      //문자 => 정수
+        int intNum2 = Integer.valueOf(strNum);      //문자 => 정수
+
+        System.out.println(String.valueOf(testNum)+strNum);
 
         System.out.println("===========================");
 
@@ -75,7 +85,7 @@ public class ReferenceName {
 
 
         System.out.println(stuName+"는 "+scoolName+"에 가기 위해서");
-        System.out.println(busNo+"를 "+busMoney+"를 내고 탔다.");
+        System.out.println(busNo+"를 "+busMoney+"원을 내고 탔다.");
 
         System.out.println("===========================");
 
