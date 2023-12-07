@@ -16,15 +16,23 @@ class Operator {
         int num = 10;
 
         num = num + 5;
-        System.out.println(num);
-
+        System.out.println("num: "+num);
         num = num / 3;
-        System.out.println(num);
+        System.out.println("num: "+num);
 
         num+=5;
-        System.out.println(num+=5);
-        System.out.println(num);
+        System.out.println("num: "+num);
+        num*=10;
+        System.out.println("num: "+num);
+        num/=10;
+        System.out.println("num: "+num);
+        num-=2;
+        System.out.println("num: "+num);
+        num%=3;
+        System.out.println("num: "+num);
 
+
+        num = 15;
         num = num + 1;   //이를 num++ 혹은 ++num으로 할 수 있다.
         System.out.println(num);    //16
         System.out.println(num++);
@@ -112,5 +120,17 @@ class Operator {
         System.out.println(200 <= 150);
         System.out.println(50 != 50);
         System.out.println(80 != 100 && (num10 != num11));
+
+
+        System.out.println("=======================================");
+        System.out.println("&: "+(10 & 6));     //00001010 + 00000110 = 00000010 = 2
+        System.out.println("|: "+(10 | 6));     //00001010 + 00000110 = 00001110 = 14
+        System.out.println("^: "+(10 ^ 6));     //00001010 + 00000110 = 00001100 = 12
+        System.out.println(">>: "+(10 >> 6));   //00001010을 오른쪽으로 6번 이동 = 00000000
+        System.out.println("<<: "+(10 << 6));   //00001010을 왼쪽으로 6번 이동 = 1010000000 = 640
+
+        System.out.println("test: "+( 10 >> 33));
+        System.out.println("test: "+( 10 << 512));
+
     }
 }
