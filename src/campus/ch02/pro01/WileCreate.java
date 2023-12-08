@@ -1,5 +1,7 @@
 package campus.ch02.pro01;
 
+import java.util.Scanner;
+
 public class WileCreate {
 
     public static void main(String[] args) {
@@ -8,7 +10,7 @@ public class WileCreate {
 
         //while(비교 연산자)
         //조건이 true이면, 계속해서 반복한다.
-        /*while(true) {
+       /* while(true) {
             System.out.println("실행");
         }*/
 
@@ -38,6 +40,40 @@ public class WileCreate {
                 continue;
             }
                 System.out.println("num: "+num);
+        }
+
+
+        Scanner sc = new Scanner(System.in);
+        while(true) {
+
+            System.out.println("기능을 선택해주세요.");
+            System.out.println("1: +, 2: *, 3: -, 4: /, 5: %, 0: 종료");
+            int check = sc.nextInt();
+            if(check == 0) {
+                break;
+            }
+
+            System.out.println("첫 번째 숫자를 입력해주세요.");
+            int firstNum = sc.nextInt();
+            System.out.println("두 번째 숫자를 입력해주세요.");
+            int secondNum = sc.nextInt();
+            switch (check) {
+                case 1:
+                    System.out.println(firstNum+"+"+secondNum+"="+(firstNum+secondNum));
+                    break;
+                case 2:
+                    System.out.println(firstNum+"*"+secondNum+"="+(firstNum*secondNum));
+                    break;
+                case 3:
+                    System.out.println(firstNum+"-"+secondNum+"="+(firstNum-secondNum));
+                    break;
+                case 4:
+                    System.out.println(firstNum+"/"+secondNum+"="+(firstNum/secondNum));
+                    break;
+                case 5:
+                    System.out.println(firstNum+"%"+secondNum+"="+(firstNum%secondNum));
+                    break;
+            }
         }
 
     }
