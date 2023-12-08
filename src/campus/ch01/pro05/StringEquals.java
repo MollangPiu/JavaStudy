@@ -1,9 +1,21 @@
 package campus.ch01.pro05;
 
+import java.io.IOException;
+
 public class StringEquals {
 
     public static void main(String[] args) {
 
+        String newString = new String("문장을 입력합니다.");
+        System.out.println(newString);
+
+        String firstString = new String("String 첫 번째 생성 방법");
+        String secondString = "String 두 번째 생성 방법";
+
+        System.out.println(firstString);
+        System.out.println(secondString);
+
+        
         String str1 = "apple";
         String str2 = "orange";
         String str3 = "apple";
@@ -45,4 +57,5 @@ public class StringEquals {
         System.out.println(quiz1.equals(quiz3));
         System.out.println(quiz1.equals(quiz2));
     }
+
 }

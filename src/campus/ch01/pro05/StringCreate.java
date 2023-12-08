@@ -35,15 +35,22 @@ class StringCreate {
         System.out.println(str.startsWith("Don"));  //문장의 시작을 비교한다.
         System.out.println(str.endsWith("."));      //문장의 종료를 비교한다.
 
+        System.out.println(str.toLowerCase().contains("your"));
+        System.out.println(str.toUpperCase().contains("YOUR"));
+        System.out.println(str.toLowerCase().indexOf("your"));
+        System.out.println(str.toUpperCase().indexOf("YOUR"));
+
         System.out.println("==============================");
 
-        //문자열 변환
+        //문자열 자르기
         str = "If you do as you always do, you get what you always get.";
         System.out.println(str);
-        //do를 smile로 모두 변경
         System.out.println(str.replace("do", "smile"));
+
         System.out.println(str.substring(28));
         System.out.println(str.substring(0, 26));
+
+        //do를 smile로 모두 변경
 
 
         System.out.println("==============================");
@@ -63,6 +70,14 @@ class StringCreate {
 
         System.out.println("==============================");
 
+        str = "HAPPY";
+        System.out.println("length: "+str.length());
+
+        str = "Congratulations";
+        System.out.println("length: "+str.length());
+
+        System.out.println("==============================");
+
         //공백 제거
         str = "       Happy    Happy        ";
         System.out.println(str);
@@ -76,6 +91,35 @@ class StringCreate {
         System.out.println(str1+str2);
         System.out.println(str1.concat(str2));
         System.out.println(str1.concat(" / ").concat(str2));
+
+
+        System.out.println("==============================================");
+
+        String testA = "apple";
+        System.out.println(testA.equals("apple"));
+        String testB = "banana";
+        System.out.println(testA == testB);
+        System.out.println("apple" == testA);
+
+        String testC = "apple";
+        System.out.println(testA == testC);
+
+
+        System.out.println("===============================================");
+        str = "POSITION";
+        System.out.println(str);        //POSITION
+
+        System.out.println("===============================================");
+        testA = "apple";
+        testB = "apple";
+        testC = new String("apple");
+        String testD = "apple";
+
+        System.out.println(testA == testB);
+        System.out.println(testA == testC);
+        System.out.println(testB == testC);
+        System.out.println(testA == testD);
+        System.out.println(testC == testD);
 
     }
 }
