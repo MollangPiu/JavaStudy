@@ -22,6 +22,21 @@ public class SwitchCase {
         }
 
 
+        switch(1) {
+            default:
+                System.out.println("test");
+                break;
+            case 1:
+                System.out.println("나머지는 1이다.");
+                break;
+            case 2:
+                System.out.println("나머지는 2이다.");
+                break;
+            case 3:
+                System.out.println("나머지는 3이다.");
+        }
+
+
         num = 49%4;
         switch (num) {
             case 1: case 3:
