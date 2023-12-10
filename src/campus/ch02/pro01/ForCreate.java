@@ -15,6 +15,21 @@ public class ForCreate {
             count++;
         }
 
+
+        for(int i = 10; i >= 0; i--) {
+            System.out.println("i: "+i);
+        }
+
+        //증감문에 대한 예시, 증감문을 이렇게 쓰면 가독성에서 문제 생길 수 있다.
+        int num = 100;
+        for(int i = 100; i > 0; i-=10, num = 100) {
+            System.out.println("i: " + i);
+            System.out.println("before num: " + num);
+            num = 10;
+            System.out.println("after num: " + num);
+        }
+
+
         //for([for문 안에서만 사용 할 변수 선언]; [for 혹은 반복 조건 종료 조건]; [한 바퀴가 수행 완료되면 수행 될 조건])
         for(int joker = 10, num01 = 0; num01 < 10; num01++, joker--) {
             System.out.println("joker: "+joker+" / num01: "+num01);
@@ -23,7 +38,7 @@ public class ForCreate {
 
 
         //num이라는 int타입을 for문 밖에서 선언을 했다.
-        int num = 50;
+        num = 50;
         for(num = 0; num < 10; num++) {
             //num을 초기선언에는 50이지만
             //for문 시작하면서 0을 선언했으므로, 0부터 시작.
