@@ -86,6 +86,7 @@ public class ForCreate {
             System.out.println();
         }
 
+
         System.out.println("==================================");
         //별만들기 3
         /*
@@ -110,5 +111,7 @@ public class ForCreate {
          ***
           *
          */
+
+
     }
 }
