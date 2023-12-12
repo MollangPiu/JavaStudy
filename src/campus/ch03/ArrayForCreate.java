@@ -22,5 +22,9 @@ public class ArrayForCreate {
             System.out.println(tomCafeMenu[i]);
         }
 
+        System.out.println("====================== use for length");
+        String [] arrTest = new String[5];
+        System.out.println(arrTest.length);
+
     }
 }
