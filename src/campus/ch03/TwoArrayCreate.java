@@ -19,6 +19,13 @@ public class TwoArrayCreate {
                 System.out.println(cafeMenu[i][j]);
             }
         }
+        System.out.println("===================== array Check");
+
+        String [] testArr1 = new String[3];     //열
+        String [][] testArr2 = new String[3][2]; //행 열
+        String [][][] testArr3 = new String[2][3][2];   //면 행 열
+
+
         System.out.println("===================== for length");
 
         /**
