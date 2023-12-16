@@ -27,6 +27,7 @@ class NewClass {
         System.out.println("name: "+newClass3.name);
         System.out.println("num: "+newClass3.num);
 
+
     }
 }
 

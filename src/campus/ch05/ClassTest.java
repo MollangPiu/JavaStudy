@@ -1,7 +1,7 @@
 package campus.ch05;
 
 public class ClassTest {
-    private static Aclass aclass;.;
+    private static Aclass aclass;
 
     public static void main(String[] args) {
 
