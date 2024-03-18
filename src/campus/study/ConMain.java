@@ -21,6 +21,7 @@ public class ConMain {
 
     public static void main(String[] args) {
         ConMain conMain = new ConMain();
+        conMain = new ConMain();
         System.out.println(conMain.disp());
 
         ConMain conMain1 = new ConMain("Choco");
