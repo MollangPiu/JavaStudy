@@ -3,10 +3,11 @@ package campus.exam;
 public class FloatMain {
 
     public static void main(String[] args) {
-        int firstNum = 12;
-        float secondNum = 2F;
 
-        float result = firstNum/secondNum;
+        int num01 = 5;
+        int num02 = 2;
+
+        float result = num01+num02;
         System.out.println(result);
     }
 }
