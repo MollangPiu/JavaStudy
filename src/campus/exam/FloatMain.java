@@ -3,6 +3,7 @@ package campus.exam;
 public class FloatMain {
 
     public static void main(String[] args) {
+
         int num01 = 5;
         int num02 = 2;
 
