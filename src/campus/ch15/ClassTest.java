@@ -1,4 +1,4 @@
-package campus.ch05;
+package campus.ch15;
 
 public class ClassTest {
     private static Aclass aclass;

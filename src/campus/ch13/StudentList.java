@@ -1,4 +1,4 @@
-package campus.ch04;
+package campus.ch13;
 
 class StudentList {
 
