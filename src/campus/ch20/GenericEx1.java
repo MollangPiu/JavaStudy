@@ -1,4 +1,4 @@
-package campus.ch08;
+package campus.ch20;
 
 public class GenericEx1<T> {
 

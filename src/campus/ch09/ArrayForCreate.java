@@ -1,4 +1,4 @@
-package campus.ch03;
+package campus.ch09;
 
 public class ArrayForCreate {
 
