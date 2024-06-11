@@ -25,6 +25,7 @@ class Array01 {
         System.out.println(cafeMenu[2]);
 
 
+        //String[] cafeMenu = {"아메리카노", "카페라떼", "복숭아 아이스티"};
 
 
     }
