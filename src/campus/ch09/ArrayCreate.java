@@ -44,8 +44,8 @@ public class ArrayCreate {
         System.out.println(menuWait[2]);
         System.out.println("================================ menuWait02");
         int[] menuWaitGo = {100, 85, 50};
-        System.out.println(menuWait[0]);
-        System.out.println(menuWait[1]);
-        System.out.println(menuWait[2]);
+        System.out.println(menuWaitGo[0]);
+        System.out.println(menuWaitGo[1]);
+        System.out.println(menuWaitGo[2]);
     }
 }
