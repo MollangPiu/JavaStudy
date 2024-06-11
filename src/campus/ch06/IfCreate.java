@@ -1,4 +1,4 @@
-package campus.ch01.pro06;
+package campus.ch06;
 
 public class IfCreate {
 
