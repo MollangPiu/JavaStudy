@@ -1,4 +1,4 @@
-package campus.ch13;
+package campus.ch10a;
 
 class StudentList {
 
@@ -29,13 +29,13 @@ class StudentList {
         students[0].engScore = 50;
         students[0].mathScore = 50;
 
-        students[0] = new Student();
+        students[1] = new Student();
         students[1].name = "베이지";
         students[1].korScore = 67;
         students[1].engScore = 54;
         students[1].mathScore = 90;
 
-        students[0] = new Student();
+        students[2] = new Student();
         students[2].name = "마이클";
         students[2].korScore = 95;
         students[2].engScore = 78;

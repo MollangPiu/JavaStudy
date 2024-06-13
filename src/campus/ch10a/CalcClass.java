@@ -1,4 +1,4 @@
-package campus.ch13;
+package campus.ch10a;
 
 import java.util.Scanner;
 
