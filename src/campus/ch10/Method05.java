@@ -8,6 +8,14 @@ public class Method05 {
 
     public static void main(String[] args) {
 
+        Assist05 assist05 = new Assist05();
+        assist05.name = "홍길동";
+
+        assist05.setNum(50);
+        int num = assist05.getNum();
+
+        System.out.println(assist05.name);
+        System.out.println(num);
 
     }
 }
