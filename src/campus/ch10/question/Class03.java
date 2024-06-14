@@ -2,7 +2,7 @@ package campus.ch10.question;
 
 import java.util.Scanner;
 
-class Que01 {
+class Class03 {
 
     public static void main(String[] args) {
 
@@ -33,9 +33,3 @@ class Que01 {
     }
 }
 
-class Student {
-    String name;
-    int korScore;
-    int mathScore;
-    int engScore;
-}
