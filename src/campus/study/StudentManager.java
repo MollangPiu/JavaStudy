@@ -1,8 +1,5 @@
 package campus.study;
 
-
-import java.awt.*;
-
 class StudentScore {
     private String name;        //학생 이름
     private int korScore;       //국어 점수
@@ -50,7 +47,7 @@ class StudentScore {
     }
 }
 
-public class StudentManager {
+class StudentManager {
 
     public int random() {
 
@@ -60,7 +57,7 @@ public class StudentManager {
     public static void main(String[] args) {
         StudentManager studentManager = new StudentManager();
 
-        StudentScore [] scoreList = new StudentScore[5];
+        StudentScore[] scoreList = new StudentScore[5];
 
         int i=0;
         for(; i < scoreList.length; i++) {
