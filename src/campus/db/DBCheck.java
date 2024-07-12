@@ -8,11 +8,13 @@ import java.sql.ResultSet;
 
 /**
  * 테스트용 DB
- * CREATE TABLE MEMBER (
+ * CREATE TABLE MEMBER_INDEX (
  *     NUM INT AUTO_INCREMENT PRIMARY KEY,
  *     COUNT INT,
  *     NAME VARCHAR(30),
- *     SCORE INT
+ *     KOR_SCORE INT,
+ *     ENG_SCORE INT,
+ *     MATH_SCORE INT
  * );
  */
 public class DBCheck {
@@ -37,7 +39,7 @@ public class DBCheck {
     public void insert(int count) {
 
 
-        String sql = "INSERT INTO MEMBER (COUNT, NAME, SCORE) VALUES (?, ?, ?)";
+        String sql = "INSERT INTO MEMBER (COUNT, NAME, KOR_SCORE, ENG_SCORE, MATH_SCORE) VALUES (?, ?, ?, ?, ?)";
 
         try {
             pstmt = conn.prepareStatement(sql);
@@ -50,7 +52,11 @@ public class DBCheck {
                 pstmt.setInt(1, i);
                 pstmt.setString(2, name);
                 pstmt.setInt(3, randomValue);
-
+                randomValue = (int) (Math.random() * 91 + 10);
+                pstmt.setInt(4, randomValue);
+                randomValue = (int) (Math.random() * 91 + 10);
+                pstmt.setInt(5, randomValue);
+                
                 int result = pstmt.executeUpdate();
                 System.out.println("결과: "+result);
             }
