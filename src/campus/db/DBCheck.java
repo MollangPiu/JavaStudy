@@ -39,7 +39,7 @@ public class DBCheck {
     public void insert(int count) {
 
 
-        String sql = "INSERT INTO MEMBER (COUNT, NAME, KOR_SCORE, ENG_SCORE, MATH_SCORE) VALUES (?, ?, ?, ?, ?)";
+        String sql = "INSERT INTO MEMBER_INDEX (COUNT, NAME, KOR_SCORE, ENG_SCORE, MATH_SCORE) VALUES (?, ?, ?, ?, ?)";
 
         try {
             pstmt = conn.prepareStatement(sql);
