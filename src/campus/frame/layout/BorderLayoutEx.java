@@ -1,4 +1,4 @@
-package campus.frame;
+package campus.frame.layout;
 
 import javax.swing.*;
 import java.awt.*;

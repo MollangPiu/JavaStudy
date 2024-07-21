@@ -30,6 +30,7 @@ public class JCheckBoxA extends JFrame {
         setVisible(true);
 
 
+        // Item Check 했을 때 반응.
         checkBox1.addItemListener(new ItemListener() {
             @Override
             public void itemStateChanged(ItemEvent e) {
@@ -42,6 +43,7 @@ public class JCheckBoxA extends JFrame {
             }
         });
 
+        //CheckBox 선택항목 Text 불러오기
         //클릭 된 항복 불러오기
         jButton.addActionListener(new ActionListener() {
             @Override
