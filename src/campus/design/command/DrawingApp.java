@@ -49,5 +49,10 @@ public class DrawingApp extends JFrame {
             canvas.repaint();
             history.undo();
         });
+
+        clearButton.addActionListener(e -> {
+            history.clear();
+            canvas.repaint();
+        });
     }
 }
