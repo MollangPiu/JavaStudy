@@ -2,11 +2,10 @@ package campus.design.command;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
-import java.awt.event.MouseMotionListener;
+import java.awt.event.*;
 
 public class DrawingApp extends JFrame {
+    MacroCommand history = new MacroCommand();
     public DrawingApp(String title) {
         super(title);
 
@@ -16,7 +15,7 @@ public class DrawingApp extends JFrame {
         JButton undoButton = new JButton("undo");
         JButton clearButton = new JButton("clear");
 
-        DrawCanvas canvas = new DrawCanvas(400, 400);
+        DrawCanvas canvas = new DrawCanvas(400, 400, history);
 
 
         buttonBox.add(undoButton);
@@ -36,6 +35,7 @@ public class DrawingApp extends JFrame {
             @Override
             public void mouseDragged(MouseEvent e) {
                 DrawCommand command = new DrawCommand(canvas, e.getPoint());
+                history.add(command);
                 command.execute();
             }
 
@@ -43,6 +43,11 @@ public class DrawingApp extends JFrame {
             public void mouseMoved(MouseEvent e) {
 
             }
+        });
+
+        undoButton.addActionListener(e -> {
+            canvas.repaint();
+            history.undo();
         });
     }
 }
