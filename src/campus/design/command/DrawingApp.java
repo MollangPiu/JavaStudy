@@ -6,6 +6,7 @@ import java.awt.event.*;
 
 public class DrawingApp extends JFrame {
     MacroCommand history = new MacroCommand();
+    MacroCommand line = new MacroCommand();
     public DrawingApp(String title) {
         super(title);
 
@@ -35,12 +36,42 @@ public class DrawingApp extends JFrame {
             @Override
             public void mouseDragged(MouseEvent e) {
                 DrawCommand command = new DrawCommand(canvas, e.getPoint());
-                history.add(command);
+                line.add(command);
+                //history.add(command);
                 command.execute();
             }
 
             @Override
             public void mouseMoved(MouseEvent e) {
+
+            }
+        });
+
+        canvas.addMouseListener(new MouseListener() {
+            @Override
+            public void mouseClicked(MouseEvent e) {
+                
+            }
+
+            //첫 클릭
+            @Override
+            public void mousePressed(MouseEvent e) {
+                line = new MacroCommand();
+            }
+
+            //마우스 마무리
+            @Override
+            public void mouseReleased(MouseEvent e) {
+                history.add(line);
+            }
+
+            @Override
+            public void mouseEntered(MouseEvent e) {
+
+            }
+
+            @Override
+            public void mouseExited(MouseEvent e) {
 
             }
         });
