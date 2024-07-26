@@ -7,6 +7,6 @@ class Main {
         TextWidget textWidget = new TextWidget("hello");
         textWidget.show();
 
-        new FullBorder(new SideBorder(new TextWidget("hello World"))).show();
+        new FullBorder(new SideBorder(new FullBorder(new SideBorder(new TextWidget("hello World"))))).show();
     }
 }
