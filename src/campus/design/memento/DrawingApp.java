@@ -96,7 +96,8 @@ public class DrawingApp extends JFrame {
 
         loadButton.addActionListener(e -> {
             restoreState(memento);
-            canvas.repaint();       //
+            canvas.setHistory(history);
+            canvas.repaint();
         });
     }
 

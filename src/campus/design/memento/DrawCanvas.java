@@ -11,6 +11,11 @@ public class DrawCanvas extends Canvas implements Drawble {
         setBackground(Color.WHITE);
         this.history = history;
     }
+
+    public void setHistory(MacroCommand history) {
+        this.history = history;
+    }
+
     @Override
     public void draw(int x, int y) {
         Graphics g = getGraphics();
