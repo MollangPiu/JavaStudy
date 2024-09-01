@@ -16,7 +16,6 @@ public class ForEachWord {
         //검색 + 메뉴 + 인덱스.
         for(int i =0; i < coffees.length; i++) {
             System.out.println(coffees[i]);
-            if("아메리카노".
         }
 
         System.out.println("===========================");
