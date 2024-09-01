@@ -1,4 +1,4 @@
-package campus.design.builder;
+package campus.design.builder.test;
 
 class Main {
 
