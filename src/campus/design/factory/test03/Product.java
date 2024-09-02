@@ -1,7 +1,6 @@
 package campus.design.factory.test03;
 
-public interface Card {
+public interface Product {
 
-    //Card 사용
     void use();
 }
