@@ -1,10 +1,10 @@
-package campus.design.factory.test02_before;
+package campus.design.factory.test03;
 
-public class StudentCard01 implements Card{
+public class StudentCard implements Card {
 
     String name;
 
-    public StudentCard01(String name) {
+    public StudentCard(String name) {
         this.name = name;
     }
     @Override

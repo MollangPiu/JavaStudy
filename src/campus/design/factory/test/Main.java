@@ -9,6 +9,8 @@ class Main {
 
         idCard1.use();
         idCard2.use();
+
+
         IDCard idCard3 = IDCard.Factory.create("조커");
         idCard3.use();
     }
