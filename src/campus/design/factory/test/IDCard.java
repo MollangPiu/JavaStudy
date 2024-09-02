@@ -1,6 +1,6 @@
-package campus.design.factory;
+package campus.design.factory.test;
 
-public class IDCard implements Product{
+public class IDCard implements Product {
     private String owner;
 
     public IDCard(String owner) {

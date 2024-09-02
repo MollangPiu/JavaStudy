@@ -1,4 +1,4 @@
-package campus.design.factory;
+package campus.design.factory.test;
 
 class Main {
 
