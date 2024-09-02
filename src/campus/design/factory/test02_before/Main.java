@@ -4,7 +4,10 @@ class Main {
 
     public static void main(String[] args) {
 
-        StudentCard studentCard = new StudentCard("슈퍼맨");
+        StudentProduct studentCard = new StudentProduct("슈퍼맨");
         studentCard.use();
+
+        Product student02 = new StudentProduct("배트맨");
+        student02.use();
     }
 }

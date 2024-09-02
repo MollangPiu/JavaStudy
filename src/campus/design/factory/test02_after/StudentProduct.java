@@ -1,10 +1,10 @@
 package campus.design.factory.test02_after;
 
-public class StudentCard implements Card {
+public class StudentProduct implements Product {
 
     String name;
 
-    public StudentCard(String name) {
+    public StudentProduct(String name) {
         this.name = name;
     }
     @Override
@@ -13,8 +13,8 @@ public class StudentCard implements Card {
     }
 
     public static class Factory {
-        public static StudentCard create(String name) {
-            return new StudentCard(name);
+        public static StudentProduct create(String name) {
+            return new StudentProduct(name);
         }
     }
 }

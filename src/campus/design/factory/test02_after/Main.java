@@ -4,9 +4,9 @@ class Main {
 
     public static void main(String[] args) {
 
-        StudentCard studentCard = new StudentCard("슈퍼맨");
+        StudentProduct studentCard = new StudentProduct("슈퍼맨");
         studentCard.use();
-        StudentCard studentCard02 = StudentCard.Factory.create("배트맨");
+        StudentProduct studentCard02 = StudentProduct.Factory.create("배트맨");
         studentCard02.use();
     }
 }
