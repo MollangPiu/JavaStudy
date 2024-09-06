@@ -17,11 +17,6 @@ public class ConcreteSubject implements Subject{
     }
 
     @Override
-    public void unregistObserver(Observer observer) {
-        observerList.remove(observer);
-    }
-
-    @Override
     public void notifyObserver() {
         for(Observer observer: observerList) {
             observer.update(message);
