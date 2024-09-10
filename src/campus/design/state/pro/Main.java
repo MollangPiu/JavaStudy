@@ -6,7 +6,6 @@ public class Main {
         Context context = new Context();
         context.setState(new ConcreteStateA());
         context.request();
-        context.execute();
         context.request();
         context.request();
     }
