@@ -1,4 +1,4 @@
-package campus.design.Bridge;
+package campus.design.bridge.report;
 
 abstract class Message {
     protected Sender sender;

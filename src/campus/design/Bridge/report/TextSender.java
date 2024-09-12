@@ -1,4 +1,4 @@
-package campus.design.Bridge;
+package campus.design.bridge.report;
 
 public class TextSender implements Sender{
     @Override

@@ -3,7 +3,7 @@ package campus.design.factory.pro02;
 public class CreateService implements Create{
     private String name;
 
-    public CreateService(String name) {
+    CreateService(String name) {
         this.name = name;
     }
     @Override
