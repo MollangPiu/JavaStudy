@@ -8,13 +8,12 @@ public class Abstraction {
     }
 
     public void display() {
-        System.out.println("Abstraction");
         implementor.print();
+        System.out.println("Abstraction: "+implementor.getNum());
     }
 
-    public int execute() {
-        System.out.println("Abstraction execute");
-        implementor.use();
-        return 10;
+    public void setNum(int num) {
+        System.out.println("Abs setNum");
+        implementor.setNum(num);
     }
 }

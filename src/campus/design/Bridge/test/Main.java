@@ -2,8 +2,12 @@ package campus.design.bridge.test;
 
 public class Main {
     public static void main(String[] args) {
-        Abstraction abstraction = new Abstraction(new ConcreteImplementor());
+        ConcreteImplementor implementor = new ConcreteImplementor();
+        Abstraction abstraction = new Abstraction(implementor);
+        abstraction.setNum(100);
         abstraction.display();
-        abstraction.execute();
+
+        ConcreteAbstraction abstraction2 = new ConcreteAbstraction(implementor);
+        abstraction2.display();
     }
 }
