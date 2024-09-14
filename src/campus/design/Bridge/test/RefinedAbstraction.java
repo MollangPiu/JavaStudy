@@ -1,7 +1,7 @@
 package campus.design.bridge.test;
 
-public class ConcreteAbstraction extends Abstraction{
-    public ConcreteAbstraction(Implementor implementor) {
+public class RefinedAbstraction extends Abstraction{
+    public RefinedAbstraction(Implementor implementor) {
         super(implementor);
     }
 

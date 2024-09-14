@@ -15,5 +15,4 @@ public class ConcreteImplementor implements Implementor{
     public int getNum() {
         return num;
     }
-
 }

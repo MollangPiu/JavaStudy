@@ -7,7 +7,7 @@ public class Main {
         abstraction.setNum(100);
         abstraction.display();
 
-        ConcreteAbstraction abstraction2 = new ConcreteAbstraction(implementor);
+        RefinedAbstraction abstraction2 = new RefinedAbstraction(implementor);
         abstraction2.display();
     }
 }
