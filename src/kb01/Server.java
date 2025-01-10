@@ -2,5 +2,5 @@ package kb01;
 
 public class Server {
 
-    String name = "main";
+    String name = "dev";
 }
