@@ -6,6 +6,8 @@ public class 주차요금정산 {
 
     public static void main(String[] args) {
 
+        System.out.println("내용 변경");
+
         //조건문 활용하여 주차 요금 정산 프로그램을 작성하시오.
         Scanner sc = new Scanner(System.in);
         System.out.println("1: 경차 / 2번: 장애인차량 / 3번: 일반");
