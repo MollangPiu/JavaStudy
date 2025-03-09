@@ -1,5 +1,7 @@
 package campus.ch01.pro04;
 
+import java.util.Scanner;
+
 class Operator {
 
     public static void main(String[] args) {
@@ -51,7 +53,7 @@ class Operator {
         System.out.println(100 <= 20);      //false
 
 
-
+        Scanner sc = new Scanner(System.in);
 
         
         System.out.println("=================================");
