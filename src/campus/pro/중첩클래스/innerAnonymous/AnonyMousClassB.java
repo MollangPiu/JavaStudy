@@ -1,4 +1,4 @@
-package campus.innerAnonymous;
+package campus.pro.중첩클래스.innerAnonymous;
 
 class AnonyB {
 	public void print() { };
