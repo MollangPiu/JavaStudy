@@ -1,6 +1,6 @@
 package campus.solid원칙.ocp;
 
-public class 올바른예제 {
+class 올바른예제 {
 
     public static void main(String[] args) {
         결제관리interface payManager = null;

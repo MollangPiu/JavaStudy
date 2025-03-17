@@ -1,6 +1,6 @@
 package campus.solid원칙.srp;
 
-public class 올바른예제 {
+class 올바른예제 {
 
     public static void main(String[] args) {
         회원정보2 emp = new 회원정보2();

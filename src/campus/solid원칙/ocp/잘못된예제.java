@@ -1,6 +1,6 @@
 package campus.solid원칙.ocp;
 
-public class 잘못된예제 {
+class 잘못된예제 {
 
     public static void main(String[] args) {
         결제관리 payProcess = new 결제관리();
