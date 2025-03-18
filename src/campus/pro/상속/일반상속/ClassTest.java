@@ -1,4 +1,4 @@
-package campus.pro.상속;
+package campus.pro.상속.일반상속;
 
 public class ClassTest {
     private static Aclass aclass;

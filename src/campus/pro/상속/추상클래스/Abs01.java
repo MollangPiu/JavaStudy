@@ -1,4 +1,4 @@
-package campus.pro.상속;
+package campus.pro.상속.추상클래스;
 
 public class Abs01 {
 
