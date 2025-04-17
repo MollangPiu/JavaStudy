@@ -41,6 +41,7 @@ public class 학생성적관리 {
     private ArrayList<StudentVO> studentList = new ArrayList<>();
     private Scanner scanner = new Scanner(System.in);
 
+
     public void start() {
         while (true) {
             System.out.println("\n1. 등록 | 2. 출력 | 3. 삭제 | 4. 수정 | 0. 종료");
@@ -127,6 +128,11 @@ public class 학생성적관리 {
 
         System.out.println("해당 이름의 학생이 없습니다.");
     }
+
+
+
+
+
 
 
 

@@ -34,7 +34,7 @@ public class DBCheck {
         try {
             String url = "jdbc:mysql://localhost:3306/mydb?serverTimezone=UTC";
             String user = "root";
-            String pw = "qwe123!@#";
+            String pw = "1234";
             conn = DriverManager.getConnection(url, user, pw);
 
         }

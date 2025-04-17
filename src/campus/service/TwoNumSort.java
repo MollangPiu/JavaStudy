@@ -10,7 +10,8 @@ import java.util.Scanner;
  * 
  * 첫 번째의 수에서 두 번째 수까지 진행 되는 동안
  * 앞자리보다 뒷 자리가 더 클 경우에만 표기 된다.
- * 123 ok / 122 no / 431 no
+ * 100 -> 150 진행 될 경우
+ * 100 x / 109 x / 115 x / 123 ok / 124 ok / 133 x
  * 
  * 세자리 수 까지만 비교 하도록 해보자.
  * 
@@ -50,9 +51,9 @@ public class TwoNumSort {
             if (check) {
                 System.out.printf(firstNum + "\t\t");
 
-                if (++searchCount % 7 == 0) {
-                    System.out.println();
-                }
+            }
+            if(firstNum%10 == 9) {
+                System.out.println();
             }
 
         }
